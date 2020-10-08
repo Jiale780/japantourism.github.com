@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+   Japan Tourism Travel Guide Website
+   
+   Filename: index.html
+-->
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1">
+    <!-- Site Title -->
+    <title>Japan Tourism</title>
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="CSS/index.css">
+    <!--Responsive CSS Custom-->
+    <link rel="stylesheet" type="text/css" href="CSS/responsiveIndex.css">
+    <!--BootStrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--JQuery Library-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <!--Ajax Popper Library-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <!--BootStrap Library-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="page">
+        <!--Start of Header Section-->
+        <header class="header sticky-top">
+            <!--Start of Navigation Section-->
+			<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+				<a class="navbar-brand d-none d-sm-inline-block" href="index.html">
+					<img class="logo" src="img/JapanTravelLogo.jpg" alt="JTlogo">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+				    <span class="navbar-toggler-icon"></span>
+				</button>
+					
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+					<ul class="navbar-nav mr-sm-auto">
+						<li class="nav-item active">
+					    	<a href="index.html" class="nav-link">Home</a>
+					    </li>
+					    <li class="nav-item">
+					        <a href="destinations.html" class="nav-link">Destinations</a>
+					    </li>
+					    <li class="nav-item">
+					       	<a href="contact.html" class="nav-link">Contact Us</a>
+					    </li>
+					</ul>
+				</div>
+					
+				<form action="" class="form-inline">
+            		<div class="input-group" role="group">
+                		<input class="form-control" placeholder="Search" type="text">
+                		<button class="btn btn-outline-light" type="submit">Go</button>
+            		</div>
+        		</form>
+            </nav>
+            <!--End of Navigation Section-->
+        </header>
+        <!--End of Header Section-->
+
+        <!--Start of Section Area-->
+        <section class="wrapper"> 
+	        <div class="container1">
+	        	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				  	<ol class="carousel-indicators">
+					    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				  	</ol>
+				  	<div class="carousel-inner">
+				    	<div class="carousel-item active">
+				      		<img class="carouselimg img-fluid" src="img/fuji.jpg" alt="Fuji_Scenery">
+					      		<div class="carousel-caption d-none d-md-block">
+		    						<h1>Japan Fuji Scenery</h1>
+		    					</div>
+				    	</div>
+					    <div class="carousel-item">
+					      	<img class="carouselimg img-fluid" src="img/Waterfall_Akita.jpg" alt="Waterfall">
+					      		<div class="carousel-caption d-none d-md-block">
+		    						<h1>Mototaki Waterfall</h1>
+		    					</div>
+					    </div>
+					    <div class="carousel-item">
+					      	<img class="carouselimg img-fluid" src="img/Usa_Jingu_Shrine.jpg" alt="Shrine">
+					      		<div class="carousel-caption d-none d-md-block">
+		    						<h1>Usa Jingu Shrine</h1>
+		    					</div>
+					    </div>
+				  	</div>
+				  	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				  		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  		<span class="sr-only">Previous</span>
+				  	</a>
+					<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    	<span class="sr-only">Next</span>
+					</a>
+				</div>
+	        </div>
+        </section>
+        <!--End of Section Area-->
+        
+        <!--Start of divider Area-->
+        <div class="container-divider"></div>
+        <!--End of divider Area-->
+
+        <!--Start of Section Area-->
+        <section class="container2">
+            <div class="innercontainer1">
+                <div class="row1">
+                    <article class="card col-sm-6 offset-sm-0 border-0 mt-3">
+                        <h1 class="xlarge-font">
+                            <b> About Us </b>
+                        </h1>
+                        <p class="card-body">
+                            JapanTourism is the leading resource for Japan tourism information & the primary destination 
+                            for visitors planning & travelling to Japan. Japan Travel guides travelers providing the 
+                            destinations across Japan, tourism info, resources, map & help you plan, book & prepare for 
+                            the perfect trip.
+                        </p>
+                    </article>
+                    <article class="card col-sm-4 border-0 mt-3">
+                        <br><br>
+                        <div class="maprouter">
+                            <div class="gmap_canvas">
+                                <iframe class="gmap_canvas" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                                    src="https://maps.google.com/maps?q=Tokyo&t=&z=11&ie=UTF8&iwloc=&output=embed">
+                                </iframe>
+                                <a href="https://www.whatismyip-address.com"></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!--End of Section Area-->
+
+        <!--Start of Section Area-->
+        <section class="container3">
+            <div class="innercontainer2">
+                <div class="row2">
+                    <article class="card col-sm-4 border-0 mt-3">
+                        <!--Simple overlay -->
+                        <div class="overlay-image1 ">
+                            <a href="https://www.japan.travel/en/guide/top-10-japan-travel-hacks/">
+                                <img class="card-img-top img-fluid" src="img/JapanTravel.jpg" alt="Japan_Travel" />
+                                <div class="text">
+                                    Top 10 Japan Travel Hacks
+                                </div>
+                            </a>
+                        </div>
+                        <p class="card-body">
+                            A lot of tourists come to Japan with little idea of the available conveniences that
+                            can make traveling much easier. From coin lockers to manga cafes, these hacks are
+                            invaluable for making a more manageable trip.
+                        </p>
+                    </article>
+                    <article class="card col-sm-4 border-0 mt-3">
+                        <!--Simple overlay -->
+                        <div class="overlay-image1">
+                            <a href="https://www.japan.travel/en/guide/jr-rail-pass/">
+                                <img class="card-img-top img-fluid" src="img/JapanRailPass.jpg" alt="JapanRailPass" />
+                                <div class="text">
+                                    Japan Rail Pass
+                                </div>
+                            </a>
+                        </div>
+                        <p class="card-body">
+                            Keep these Japanese manner tips in mind for a stress-free Japan-travel experience.
+                            The Japan Rail (JR) Pass is a deal offered exclusively to foreign visitors traveling
+                            in Japan on a tourist visa.
+                        </p>
+                    </article>
+                    <article class="card col-sm-4 border-0 mt-3">
+                        <!--Simple overlay -->
+                        <div class="overlay-image1">
+                            <a href="https://www.japan.travel/en/guide/japanese-manners-dos-and-donts/">
+                                <img class="card-img-top img-fluid" src="img/Manners.jpg" alt="Manners" />
+                                <div class="text">
+                                    Japan Manners
+                                </div>
+                            </a>
+                        </div>
+                        <p class="card-body">
+                            From table manners to train etiquette, it can be hard to remember the social rules
+                            in Japan. Here is a quick guide to the need-to-know do's and don'ts so that you
+                            can blend in with the locals.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!--End of Section Area-->
+
+        <!--Start of Section Area-->
+        <section class="container4">
+            <div class="innercontainer3">
+                <div class="row3">
+                    <article class="card col-sm-4 border-0 mt-3">
+                        <h1> Others </h1>
+                        <ul class="links2">
+                            <li>
+                                <a href="https://www.japan.travel/en/world-heritage/" target="_blank">
+                                    World Heritage Guide
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.japan.travel/en/spot/H022/" target="_blank">
+                                    Hotel Guide
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.japan.travel/en/things-to-do/culture/" target="_blank">
+                                    Culture
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.japan.travel/en/travel-directory/Japanese%20Anime%20&%20Manga/"
+                                    target="_blank">
+                                    Japanese Anime Guide
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.japan.travel/en/things-to-do/history/" target="_blank">
+                                    History
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.japan.travel/en/fuji-guide/" target="_blank">
+                                    Mt Fuji Guide
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.japan.travel/en/things-to-do/eat-and-drink/" target="_blank">
+                                    Food and Drinks
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.japan.travel/en/things-to-do/festivals-and-events/"
+                                    target="_blank">
+                                    Festival and Events Guide
+                                </a>
+                            </li>
+                        </ul>
+                    </article>
+                    <article class="card col-sm-4 border-0 mt-3">
+                        <!--Simple overlay -->
+                        <div class="overlay-image2">
+                            <a href="https://www.japan.travel/en/itineraries/">
+                                <img class="card-img-top img-fluid" src="img/Itinerary.jpg" alt="Travel_Itinerary" />
+                                <div class="text">
+                                    Travel Itineraries
+                                </div>
+                            </a>
+                        </div>
+                        <p class="card-body">
+                            Browse our selection of tours that take you through classic travel routes,
+                            cities, towns, historical World Heritage sites, pilgrimages, and off-the-beaten-path
+                            destinations.
+                        </p>
+                    </article>
+                    <article class="card col-sm-4 border-0 mt-3">
+                        <h1> External Links & Resources </h1>
+                        <h2> ENGLISH </h2>
+                        <ul class="links3">
+                            <li>
+                                Tokyo metropolitan government
+                            </li>
+                            <a href="http://www.metro.tokyo.jp/english/" target="_blank">
+                                Official Website
+                            </a>
+                            <li>
+                                <a href="https://www.nagomivisit.com/" target="_blank">
+                                    Nagomi Visit
+                                </a>
+                            </li>
+                        </ul>
+                        <h2> JAPANESE </h2>
+                        <ul class="links3">
+                            <li>
+                                Tokyo metropolitan government
+                            </li>
+                            <a href="http://www.metro.tokyo.jp/index.html" target="_blank">
+                                Official Website
+                            </a>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!--End of Section Area-->
+
+        <!--Start of Footer Area-->
+        <footer class="footer bg-primary">
+            <div class="footer-inner bg-primary">
+	            <div class="row"> 
+	                <div class="col-md-3 mx-auto">
+	                    <h2 class="font-weight-bold mt-3 mb-4 font1"><span>Address</span></h2>
+	                    <p>
+	                        4 Chome Yotsuya, Shinjuku City, Tokyo 160-0004, Japan.
+	                    </p>
+	                    <h2 class="font-weight-bold mt-3 mb-4"><span>Email Address</span></h2>
+	                    <p>
+	                        <a href="mailto:INFO_Support@JNTO.com">INFO_Support@JNTO.com</a>
+	                    </p>
+	                    <h2 class="font-weight-bold mt-3 mb-4"><span>Telephone</span></h2>
+	                    <p>
+	                        <a href="tel:+81366854965">(81) 3-6685-4965</a>
+	                    </p>
+	                </div>
+	                <div class="col-md-3 mx-auto">
+	                    <h2 class="font-weight-bold mt-3 mb-4 font2"><span>Useful Links</span></h2>
+	                    <ul class="list-styled links1">
+	                        <li>
+	                            <a href="https://www.japan.travel/en/plan/" target="_blank">
+	                                First-Time Visitors
+	                            </a>
+	                        </li>
+	                        <li>
+	                            <a href="https://japanfreewifi.jnto.go.jp/eng/wifi-spot-nearby.html" target="_blank">
+	                                Japan Weather
+	                            </a>
+	                        </li>
+	                        <li>
+	                            <a href="https://www.jnto.go.jp/weather/eng/index.php" target="_blank">
+	                                Japan Free WIFI
+	                            </a>
+	                        </li>
+	                        <li>
+	                            <a href="https://japan-tours.jnto.go.jp/eng/index.php" target="_blank">
+	                                Japan Tours & Activities
+	                            </a>
+	                        </li>
+	                        <li>
+	                            <a href="https://faq.japan-trip-inquiry.cld.navitime.jp/hc/en-001" target="_blank">
+	                                FAQ
+	                            </a>
+	                        </li>
+	                    </ul>
+	                </div>
+	                <div class="col-md-3 mx-auto">
+	                    <h2 class="font-weight-bold mt-3 mb-4 font3"><span>Social Media</span></h2>
+	                    <div class="mb-5 flex-center icons1">
+	                        <a href="https://www.instagram.com/visitjapanjp/?hl=en"><i class="fa fa-instagram"></i></a>
+	                        <a href="https://www.linkedin.com/company/japan-national-tourism-organization/about/"><i class="fa fa-linkedin"></i></a>
+	                        <a href="https://twitter.com/JapanSafeTravel?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter"></i></a>
+	                        <a href="https://www.facebook.com/visitjapaninternational/?ref=search&__tn__=%2Cd%2CP-R&eid=ARCP9TgnNll8MmjAxUbdBZNo8EPHnAJHxBJ9NZXeoMpWLZJQ0ZgE0I1fY_It2xgvTNaUzilnCfAiJb_c"><i class="fa fa-facebook"></i></a>
+	                    </div>
+	
+	                    <p class="base">
+	                        Copyright &copy; <script>document.write(new Date().getFullYear())</script> <br>
+	                        JT. <br> All rights reserved. 
+	                    </p>
+	                </div>
+	
+	                <div class="clr"></div>
+                </div>
+            </div>
+        </footer>
+        <!--End of Footer Area-->
+    </div>
+</body>
+</html>

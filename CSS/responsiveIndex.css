@@ -1,0 +1,444 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+/* No media query for `xs` since this is the default in Bootstrap*/
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.header {
+		width: 100%;
+		height: auto;
+	}
+	.wrapper {
+		width: 100%;
+		height: auto;
+	}
+	.container1 {
+		width: 100%;
+		height: auto;
+	}
+	.carouselimg {
+		width: 100%;
+		height: 100%;
+	}
+	.carousel-caption>h1 {
+		width: 100%;
+		height: auto;
+		font-size: 14px;
+	}
+	.container-divider {
+		background-color: whitesmoke;
+		margin: 0 auto;
+		width: 100%;
+		height: auto;
+	}
+	.container2 {
+		margin: 0 auto;
+		width: 100%;
+		height: auto;
+	}
+	.card>.xlarge-font {
+		width: 100%;
+		height: auto;
+		font-size: 26px;
+	}
+	.gmap_canvas>iframe {
+		height: 200px;
+		width: 210px;
+	}
+	.container3 {
+		width: 100%;
+		height: auto;
+	}
+	.container4 {
+		width: 100%;
+		height: auto;
+	}
+	.footer {
+		width: 100%;
+		height: auto;
+	}
+	.footer-inner {
+		width: 100%;
+		height: auto;
+	}
+	.row>div {
+		width: 100%;
+		height: auto;
+	}
+	.row>div>.font1 {
+		width: 100%;
+		height: auto;
+	}
+	.row>div>p {
+		width: 100%;
+		height: auto;
+	}
+	.row>div>.font2 {
+		width: 100%;
+		height: auto;
+	}
+	.links1>li {
+		width: 100%;
+		height: auto;
+	}
+	.row>div>.font3 {
+		width: 100%;
+		height: auto;
+	}
+	.row>div>.base {
+		width: 350px;
+		height: auto;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	.header {
+		width: 100%;
+		height: auto;
+	}
+	.wrapper {
+		width: 100%;
+		height: auto;
+	}
+	.container1 {
+		width: 100%;
+		height: auto;
+	}
+	.carouselimg {
+		width: 100%;
+		height: 100%;
+	}
+	.carousel-caption>h1 {
+		width: 100%;
+		height: auto;
+		font-size: 20px;
+	}
+	.container-divider {
+		background-color: whitesmoke;
+		margin: 0 auto;
+		width: 100%;
+		height: auto;
+	}
+	.container2 {
+		margin: 0 auto;
+		width: 100%;
+		height: auto;
+	}
+	.card>.xlarge-font {
+		width: 100%;
+		height: auto;
+		font-size: 30px;
+	}
+	.gmap_canvas>iframe {
+		height: 250px;
+		width: 250px;
+	}
+	.container3 {
+		width: 100%;
+		height: auto;
+	}
+	.container4 {
+		width: 100%;
+		height: auto;
+	}
+	.footer {
+		width: 100%;
+		height: auto;
+	}
+	.footer-inner {
+		width: 100%;
+		height: auto;
+	}
+	.row>div {
+		width: 100%;
+		height: auto;
+	}
+	.row>div>.font1 {
+		width: 100%;
+		height: auto;
+	}
+	.row>div>p {
+		width: 100%;
+		height: auto;
+	}
+	.row>div>.font2 {
+		width: 100%;
+		height: auto;
+	}
+	.links1>li {
+		width: 100%;
+		height: auto;
+	}
+	.row>div>.font3 {
+		width: 100%;
+		height: auto;
+	}
+	.row>div>.base {
+		width: 350px;
+		height: auto;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.header {
+		width: 100%;
+		height: auto;
+	}
+	.wrapper {
+		width: 100%;
+		height: auto;
+	}
+	.container1 {
+		width: 100%;
+		height: auto;
+	}
+	.carouselimg {
+		width: 100%;
+		height: 100%;
+	}
+	.carousel-caption>h1 {
+		width: 100%;
+		height: auto;
+		font-size: 30px;
+	}
+	.container-divider {
+		background-color: whitesmoke;
+		margin: 0 auto;
+		width: 100%;
+		height: auto;
+	}
+	.container2 {
+		margin: 0 auto;
+		width: 100%;
+		height: auto;
+	}
+	.card>.xlarge-font {
+		width: 100%;
+		height: auto;
+		font-size: 36px;
+	}
+	.gmap_canvas>iframe {
+		height: 300px;
+		width: 350px;
+	}
+	.container3 {
+		width: 100%;
+		height: auto;
+	}
+	.container4 {
+		width: 100%;
+		height: auto;
+	}
+	.footer {
+		width: 100%;
+		height: auto;
+	}
+	.footer-inner {
+		width: 100%;
+		height: auto;
+	}
+	.row>div {
+		width: 100%;
+		height: auto;
+	}
+	.row>div>.font1 {
+		width: 100%;
+		height: auto;
+	}
+	.row>div>p {
+		width: 100%;
+		height: auto;
+	}
+	.row>div>.font2 {
+		width: 100%;
+		height: auto;
+	}
+	.links1>li {
+		width: 100%;
+		height: auto;
+	}
+	.row>div>.font3 {
+		width: 100%;
+		height: auto;
+	}
+	.row>div>.base {
+		width: 350px;
+		height: auto;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.header {
+		width: 100%;
+		height: auto;
+	}
+	.wrapper {
+		width: 100%;
+		height: auto;
+	}
+	.container1 {
+		width: 100%;
+		height: auto;
+	}
+	.carouselimg {
+		width: 100%;
+		height: 100%;
+	}
+	.carousel-caption>h1 {
+		width: 100%;
+		height: auto;
+		font-size: 36px;
+	}
+	.container-divider {
+		background-color: whitesmoke;
+		margin: 0 auto;
+		width: 100%;
+		height: auto;
+	}
+	.container2 {
+		margin: 0 auto;
+		width: 100%;
+		height: auto;
+	}
+	.card>.xlarge-font {
+		width: 100%;
+		height: auto;
+		font-size: 38px;
+	}
+	.gmap_canvas>iframe {
+		height: 300px;
+		width: 460px;
+	}
+	.container3 {
+		width: 100%;
+		height: auto;
+	}
+	.container4 {
+		width: 100%;
+		height: auto;
+	}
+	.footer {
+		width: 100%;
+		height: auto;
+	}
+	.footer-inner {
+		width: 100%;
+		height: auto;
+	}
+	.row>div {
+		width: 100%;
+		height: auto;
+	}
+	.row>div>.font1 {
+		width: 100%;
+		height: auto;
+	}
+	.row>div>p {
+		width: 100%;
+		height: auto;
+	}
+	.row>div>.font2 {
+		width: 100%;
+		height: auto;
+	}
+	.links1>li {
+		width: 100%;
+		height: auto;
+	}
+	.row>div>.font3 {
+		width: 100%;
+		height: auto;
+	}
+	.row>div>.base {
+		width: 350px;
+		height: auto;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.header {
+		width: 1550px;
+		height: auto;
+	}
+	.wrapper {
+		width: 1550px;
+		height: auto;
+	}
+	.container1 {
+		width: 100%;
+		height: auto;
+	}
+	.carouselimg {
+		width: 100%;
+		height: 100%;
+	}
+	.carousel-caption>h1 {
+		width: 100%;
+		height: auto;
+	}
+	.container-divider {
+		background-color: whitesmoke;
+		margin: 0 auto;
+		width: 1550px;
+		height: auto;
+	}
+	.container2 {
+		margin: 0 auto;
+		width: 1550px;
+		height: auto;
+	}
+	.card>.xlarge-font {
+		width: 100%;
+		height: auto;
+	}
+	.gmap_canvas>iframe {
+		height: 420px;
+		width: 660px;
+	}
+	.container3 {
+		width: 1550px;
+		height: auto;
+	}
+	.container4 {
+		width: 1550px;
+		height: auto;
+	}
+	.footer {
+		width: 1550px;
+		height: auto;
+	}
+	.footer-inner {
+		width: 1500px;
+		height: auto;
+	}
+	.row>div {
+		width: 450px;
+		height: auto;
+	}
+	.row>div>.font1 {
+		width: 350px;
+		height: auto;
+	}
+	.row>div>p {
+		width: 350px;
+		height: auto;
+	}
+	.row>div>.font2 {
+		width: 350px;
+		height: auto;
+	}
+	.links1>li {
+		width: 350px;
+		height: auto;
+	}
+	.row>div>.font3 {
+		width: 350px;
+		height: auto;
+	}
+	.row>div>.base {
+		width: 350px;
+		height: auto;
+	}
+}

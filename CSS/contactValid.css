@@ -1,0 +1,20 @@
+/*
+   Filename: contactValid.css
+*/
+
+/* Validation Styles */
+input:focus, select:focus, textarea:focus{
+   background-color: rgb(255, 255, 180);
+}
+
+input#nameBox:focus:valid, 
+input#emailBox:focus:valid
+{
+   background: rgb(220, 255, 220) url(img/Correct_Tick.png) right/contain no-repeat;
+}
+
+input#nameBox:focus:invalid, 
+input#emailBox:focus:invalid
+{
+   background: rgb(255, 230, 230) url(img/Wrong_Cross.png) right/contain no-repeat;
+}

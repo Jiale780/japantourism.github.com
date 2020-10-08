@@ -1,0 +1,303 @@
+/* =================================== */
+/*  contact.css
+    Filename: contact.css
+/* =================================== */
+
+/* HTML and Body styles */
+html {
+    background-image: url(JNTOlogo.jpg) center center / cover no-repeat fixed;
+    font-family: Verdana, Geneva, sans-serif;
+    height: 100%;
+    font-size: 12px;
+    background-color: #b8b8b8;
+}
+
+body {
+    background-color: #b8b8b8;
+    font-family: "Microsoft", sans-serif;
+    font-size: normal 12px;
+    width: 100%;
+}
+
+.page {
+	background-color: #b8b8b8;
+}
+
+/* Navigation styles */
+.header {
+	margin: 0 auto;
+    padding: 0px;
+    width: 1550px;
+    height: 120px;
+    background: #0093e9;
+}
+
+.navbar {
+    background: #0093e9;
+}
+
+.form-inline > .input-group > .form-control{
+	text-align: center;
+	font-size: 15px;
+}
+
+.form-inline > .input-group > .btn{
+	font-size: 13px;	
+}
+
+#navbarTogglerDemo02 > ul > li > a{
+	font-size: 25px;
+	text-indent: 15px;
+}
+
+#navbarTogglerDemo02 > ul > li > a:link,
+#navbarTogglerDemo02 > ul > li > a:visited {
+	color: white;
+}
+
+#navbarTogglerDemo02 > ul > li > a:hover,
+#navbarTogglerDemo02 > ul > li > a:active {
+	color: red;
+}
+
+/* logo styles */
+.logo {
+	height: 100px;
+	width: 100px;
+	padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+/* Clear both sides to assist with div alignment  */
+#clr {
+    clear: both;
+    width: 100%;
+}
+
+/* Container styles */
+.wrapper {
+	background: #b8b8b8;
+    margin: 0 auto;
+    padding: 0px;
+    width: 1550px;
+    height: 800px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container1 {
+    width: 1550px;
+    height: 800px;
+}
+
+.carouselimg {
+    width: 100%;
+    height: 100%;
+}
+
+/* container styles */
+.container2 {
+    background-color: white;
+    margin: 0 auto;
+    padding: 55px;
+    width: 1550px;
+    height: 1000px;
+}
+
+/* Button Styles */
+.btn {
+    background-color: #0093e9;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.information {
+    float: right;
+    background-color: #0093e9;
+    color: white;
+}
+
+.information:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #0093e9;
+}
+
+.btn > a {
+    color: white;
+    font-size: 18px;
+}
+
+.btn:hover > a {
+    color: #008CBA;
+}
+
+.innercontainer1 > h1 {
+    font-size: 44px;
+    color: #0093e9;
+    text-align: center;
+}
+
+/* Form Styles */
+input[type="submit"] {
+    height: 50px;
+    width: 150px;
+    background-color: #0093e9;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    height: 50px;
+    width: 150px;
+    background-color: #0093e9;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+.footer {
+    background: #0093e9;
+    padding: 25px 25px;
+    margin: 0 auto;
+    width: 1550px;
+    height: 420px;
+}
+
+.footer-inner { 
+    width: 1500px; 
+    height: 370px;
+    background: #0093e9;
+}
+
+.row > div {
+    margin: 0 auto; 
+    text-align: justify; 
+    float: left;
+    width: 450px;
+    padding: 10px 83px;
+}
+
+.row > div > .font1 {
+    margin: 0 auto; 
+    float: left;
+    width: 350px;
+    padding: 10px 0px;
+    font-size: 22px;
+}
+
+.row > div > p{
+    margin: 0 auto; 
+    width: 350px;
+    padding: 15px 0px;
+    font-size: 16px;
+}
+
+.row > div > p > a:active, .row > div > p > a:link{
+	color: purple;
+}
+
+.row > div > p > a:hover, .row > div > p > a:visited{
+	color: black;
+}
+
+.row > div {
+    margin: 0 auto; 
+    text-align: justify; 
+    float: left;
+    width: 450px;
+    padding: 10px 83px;
+}
+
+.row > div > .font2 {
+    margin: 0 auto; 
+    float: left;
+    width: 350px;
+    padding: 10px 30px;
+    font-size: 22px;
+}
+
+.links1 > li {
+    margin: 10px; 
+    float: left;
+    width: 350px;
+    padding: 0px 15px;
+    font-size: 20px;
+}
+
+.links1 > li > a:active, .links1 > li > a:link{
+	color: purple;
+}
+
+.links1 > li > a:hover, .links1 > li > a:visited{
+	color: black;
+}
+
+.row > div {
+    margin: 0 auto; 
+    text-align: justify; 
+    float: left;
+    width: 450px;
+    padding: 10px 83px;
+}
+
+.row > div > .font3 {
+    margin: 15px; 
+    float: left;
+    text-align: left;
+    width: 350px;
+    padding: 10px 40px;
+    font-size: 23px;
+}
+
+.row > div > .icons1{
+    margin-top: 25px;
+    float: right;
+    margin: 10px;
+}
+
+.row > div > .icons1 > a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.row > div > .base{
+    margin: 0 auto;
+    float: left;
+    width: 350px;
+    padding: 140px 0px;
+    text-align: left;
+    font-size: 12px;
+}

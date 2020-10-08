@@ -1,0 +1,440 @@
+/* Filename: destinations.css */
+
+/* HTML and Body styles */
+html {
+    background-image: url(JNTOlogo.jpg) center center / cover no-repeat fixed;
+    font-family: Verdana, Geneva, sans-serif;
+    height: 100%;
+    font-size: 12px;
+    background-color: #b8b8b8;
+}
+body {
+    background-color: #b8b8b8;
+    font-family: "Microsoft", sans-serif;
+    font-size: normal 12px;
+    width: 100%;
+}
+.page {
+	background-color: #b8b8b8;
+}
+
+/* Navigation styles */
+.header {
+	margin: 0 auto;
+    padding: 0px;
+    width: 1550px;
+    height: 120px;
+    background: #0093e9;
+}
+
+.navbar {
+    background: #0093e9;
+}
+
+.form-inline > .input-group > .form-control{
+	text-align: center;
+	font-size: 15px;
+}
+
+.form-inline > .input-group > .btn{
+	font-size: 13px;	
+}
+
+#navbarTogglerDemo02 > ul > li > a{
+	font-size: 25px;
+	text-indent: 15px;
+}
+
+#navbarTogglerDemo02 > ul > li > a:link,
+#navbarTogglerDemo02 > ul > li > a:visited {
+	color: white;
+}
+
+#navbarTogglerDemo02 > ul > li > a:hover,
+#navbarTogglerDemo02 > ul > li > a:active {
+	color: red;
+}
+
+/* logo styles */
+.logo {
+	height: 100px;
+	width: 100px;
+	padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+/* Clear both sides to assist with div alignment  */
+#clr {
+    clear: both;
+    width: 100%;
+}
+
+/* Container styles */
+.wrapper {
+	background: #b8b8b8;
+    margin: 0 auto;
+    padding: 0px;
+    width: 1550px;
+    height: 800px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.carouselimg {
+    width: 100%;
+    height: 100%;
+}
+
+/* container styles */
+.container2 {
+    background-color: white;
+    margin: 0 auto;
+    padding: 55px;
+    width: 1550px;
+    height: 650px;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Create three equal columns that floats next to each other */
+/* Card Styles*/
+.card {
+    top: 0;
+    bottom: 0;
+    float: left;
+    width: 33.33%;
+    position: relative;
+    background-size: contain;
+    height: 480px;
+    padding: 20px;
+}
+
+.card > h1 {
+    font-size: 25px;
+    margin: 20px;
+    padding: 30px 165px;
+}
+
+.card > h2 {
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px 165px;
+}
+
+.card > .card-body {
+    font-size: 14px;
+    text-align: center;
+}
+
+/********* Simple or original overlay *******/
+/* Main container */
+.overlay-image1 {
+    position: relative;
+    width: 100%;
+}
+
+/* Original image */
+.overlay-image1 > a > img {
+    display: block;
+    width: 100%;
+    height: 320px;
+}
+
+/* Original text overlay */
+.overlay-image1 .text {
+    color: rgb(216, 216, 216);
+    font-size: 22px;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+/* Background and text only overlay on hover */
+.overlay-image1 .normal {
+    transition: .5s ease;
+}
+.overlay-image1:hover .normal {
+    opacity: 0;
+}
+.overlay-image1 .hover {
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* New overlay on hover */
+.overlay-image1 .hover {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+/* New overlay appearance on hover */
+.overlay-image1:hover .hover {
+    opacity: 1;
+}
+.overlay-image1 > a > .hover > img {
+    display: block;
+    width: 100%;
+    height: 320px;
+}
+
+/* container styles */
+.container3 {
+    padding: 64px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 55px;
+    width: 1550px;
+    height: 720px;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Links Styles */
+.links2 > li {
+    list-style-type: square;
+    font-size: 15px;
+    margin: 20px;
+    padding: 0px;
+    float: center;
+}
+
+.links2 > li > a:link,
+.links2 > li > a:visited {
+    text-decoration: none;
+}
+
+.links2 > li > a:hover,
+.links2 > li > a:active {
+    text-decoration: underline;
+}
+
+.links3 > li {
+    list-style-type: circle;
+    font-size: 15px;
+    margin: 10px;
+    padding: 0px;
+    float: center;
+}
+
+.links3 > li > a{
+    font-size: 15px;
+    margin: 10px;
+    padding: 0px;
+    float: center;
+}
+
+.links3 > li > a:link,
+.links3 > li > a:visited {
+    text-decoration: none;
+}
+
+.links3 > li > a:hover,
+.links3 > li > a:active {
+    text-decoration: underline;
+}
+
+/* Main container */
+.overlay-image2 {
+    position: relative;
+    width: 100%;
+}
+
+/* Original image */
+.overlay-image2 > a > img {
+    display: block;
+    width: 100%;
+    height: 320px;
+}
+
+/* Original text overlay */
+.overlay-image2 .text {
+    color: rgb(216, 216, 216);
+    font-size: 22px;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+/* Background and text only overlay on hover */
+.overlay-image2 .normal {
+    transition: .5s ease;
+}
+
+.overlay-image2:hover .normal {
+    opacity: 0;
+}
+
+.overlay-image2 .hover {
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* Overlay on hover */
+/* New overlay on hover */
+.overlay-image2 .hover {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+/* New overlay appearance on hover */
+.overlay-image2:hover .hover {
+    opacity: 1;
+}
+
+.overlay-image2 > a > .hover > img {
+    display: block;
+    width: 100%;
+    height: 320px;
+}
+
+/* Footer Styles */
+.footer {
+    background: #0093e9;
+    padding: 25px 25px;
+    margin: 0 auto;
+    width: 1550px;
+    height: 420px;
+}
+
+.footer-inner { 
+    width: 1500px; 
+    height: 370px;
+    background: #0093e9;
+}
+
+.row > div {
+    margin: 0 auto; 
+    text-align: justify; 
+    float: left;
+    width: 450px;
+    padding: 10px 83px;
+}
+
+.row > div > .font1 {
+    margin: 0 auto; 
+    float: left;
+    width: 350px;
+    padding: 10px 0px;
+    font-size: 22px;
+}
+
+.row > div > p{
+    margin: 0 auto; 
+    width: 350px;
+    padding: 15px 0px;
+    font-size: 16px;
+}
+
+.row > div > p > a:active, .row > div > p > a:link{
+	color: purple;
+}
+
+.row > div > p > a:hover, .row > div > p > a:visited{
+	color: black;
+}
+
+.row > div {
+    margin: 0 auto; 
+    text-align: justify; 
+    float: left;
+    width: 450px;
+    padding: 10px 83px;
+}
+
+.row > div > .font2 {
+    margin: 0 auto; 
+    float: left;
+    width: 350px;
+    padding: 10px 30px;
+    font-size: 22px;
+}
+
+.links1 > li {
+    margin: 10px; 
+    float: left;
+    width: 350px;
+    padding: 0px 15px;
+    font-size: 20px;
+}
+
+.links1 > li > a:active, .links1 > li > a:link{
+	color: purple;
+}
+
+.links1 > li > a:hover, .links1 > li > a:visited{
+	color: black;
+}
+
+.row > div {
+    margin: 0 auto; 
+    text-align: justify; 
+    float: left;
+    width: 450px;
+    padding: 10px 83px;
+}
+
+.row > div > .font3 {
+    margin: 15px; 
+    float: left;
+    text-align: left;
+    width: 350px;
+    padding: 10px 40px;
+    font-size: 23px;
+}
+
+.row > div > .icons1{
+    margin-top: 25px;
+    float: right;
+    margin: 10px;
+}
+
+.row > div > .icons1 > a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.row > div > .base{
+    margin: 0 auto;
+    float: left;
+    width: 350px;
+    padding: 140px 0px;
+    text-align: left;
+    font-size: 12px;
+}
