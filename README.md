@@ -1,1 +1,0 @@
-# japantourism.github.com
